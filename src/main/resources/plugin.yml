@@ -1,0 +1,25 @@
+name: FluxShards
+version: 1.0.0
+main: net.fluxmc.fluxshards.FluxShards
+api-version: '1.20'
+folia-supported: true
+softdepend: [PlaceholderAPI]
+description: Simple shards currency with pay, admin commands and placeholders
+commands:
+  shards:
+    description: Check and manage shards
+    usage: /shards [bal|pay|give|take|set|top|reload]
+    aliases: [shard]
+permissions:
+  shards.use:
+    description: Use /shards
+    default: true
+  shards.bal:
+    description: Check shard balances
+    default: true
+  shards.pay:
+    description: Pay other players shards
+    default: true
+  shards.admin:
+    description: Give, take, set and reload
+    default: op

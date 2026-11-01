@@ -1,0 +1,23 @@
+# Shards every player starts with
+starting-balance: 0
+
+messages:
+  prefix: "&d[Shards] &r"
+  balance: "&aYou have {amount} shards."
+  balance-other: "&a{player} has {amount} shards."
+  paid: "&aYou paid {player} {amount} shards."
+  received: "&aYou received {amount} shards from {player}."
+  given: "&aGave {amount} shards to {player}."
+  taken: "&aTook {amount} shards from {player}."
+  set: "&aSet {player}'s shards to {amount}."
+  top-header: "&d&lTop Shards"
+  top-line: "&e#{rank} &f{player} &7- &d{amount}"
+  reloaded: "&aFluxShards reloaded."
+  not-enough: "&c&lYou don't have enough shards."
+  not-enough-target: "&c&l{player} doesn't have enough shards."
+  invalid-amount: "&c&lInvalid amount."
+  unknown-player: "&c&lPlayer not found."
+  cannot-pay-self: "&c&lYou can't pay yourself."
+  no-permission: "&c&lYou don't have permission."
+  players-only: "&c&lOnly players can do that."
+  usage: "&c&lUsage: {usage}"
